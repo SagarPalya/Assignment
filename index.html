@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-box">
+        <div class="box">
+        <span class="box-1">
+            <i class="fi fi-rr-arrow-left" id="icon"></i>
+            <h4 style="margin-left: 20px;">Bus Travels</h4>
+            <button type="button" class="btn btn-success " id="btn-1" data-bs-toggle="modal" data-bs-target="#page">Seat Type</button>
+            <!-- Modal -->
+            <div class="modal fade" id="page" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" style="width: 400px;">
+            <div class="modal-content" style="padding: 10px; background: white;">
+            <div class="modal-header ">
+            <h4 style="display: inline-block; color: black; font-size: 20px;">Know About Seat Types</h4> 
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            
+            <div class="modal-body">  
+                <div class="main-box-2">
+                <div class="left-row">
+                    <div class="r1-rows" id="s1">1</div>
+                    <div class="r1-rows" id="s2">2</div>
+                    <div class="r1-rows" id="s3">3</div>
+                    <div class="r1-rows" id="s4">4</div>
+                    <div class="r1-rows" id="s5">5</div>
+                 </div>
+                 <div class="left-row">
+                    <h6 class="right-rows" >Available</h6>
+                    <h6 class="right-rows" >Available only for Women</h6>
+                    <h6 class="right-rows" >Selected by You</h6>
+                    <h6 class="right-rows" >Booked by others</h6>
+                    <h6 class="right-rows" >Booked by Female passengers</h6>
+                 </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </span>
+        <hr>
+        <div class="box-2">
+            <div class="inner-box-1">
+             <h4 class="heading">Lower Deck</h4>
+             <hr>
+             <form>
+             <div class="main-box">
+             <div class="left-row">
+             <!-- Button trigger modal -->
+             <button type="button" class=" left-rows-o" id="b1" data-bs-toggle="modal" data-bs-target="#exampleModal">1</button>
+  
+             <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">1 Seat | L1</h1>
+            <p> &#8377 2999 </p>
+            </div>
+            <div class="modal-body">
+            <input name="submit" type="submit" value="Continue"  class="btn btn-primary" data-bs-dismiss="modal" id="cont"></input>
+            </div>
+
+            </div>
+            </div>
+            </div>
+
+            <div class="left-rows-w" id="b1">2</div>
+            <div class="left-rows-b">3</div>
+            <div class="left-rows-o" id="b1">4</div>
+            <div class="left-rows-b">5</div>
+            </div>
+            
+            <div class="right-row">
+                <div class="right-1-row">
+                <div class="left-rows-w" id="b1">6</div>
+                <div class="left-rows-b">8</div>
+                <div class="left-rows-w" id="b1">10</div>
+                <div class="left-rows-o" id="b1">12</div>
+                <div class="left-rows-o" id="b1">14</div>
+                </div>
+
+                <div class="left-2-row">
+                <div class="left-rows-w" id="b1">7</div>
+                <div class="left-rows-b">9</div>
+                <div class="left-rows-w" id="b1">11</div>
+                <div class="left-rows-o" id="b1">13</div>
+                <div class="left-rows-o" id="b1">15</div>
+                </div>
+                
+             </div>
+             </div>
+            </form>
+            </div>
+
+            <div class="inner-box-2">
+                <h4 class="heading">Upper Deck</h4>
+             <hr>
+             <div class="main-box">
+             <div class="left-row">
+                <div class="left-rows-o" id="b1">1</div>
+                <div class="left-rows-w" id="b1">2</div>
+                <div class="left-rows-b">3</div>
+                <div class="left-rows-o" id="b1">4</div>
+                <div class="left-rows-b">5</div>
+             </div>
+             <div class="right-row">
+                <div class="right-1-row">
+                <div class="left-rows-w" id="b1">6</div>
+                <div class="left-rows-b">8</div>
+                <div class="left-rows-w" id="b1">10</div>
+                <div class="left-rows-o" id="b1">12</div>
+                <div class="left-rows-o" id="b1">14</div>
+                </div>
+
+                <div class="left-2-row">
+                <div class="left-rows-w" id="b1">7</div>
+                <div class="left-rows-b">9</div>
+                <div class="left-rows-w" id="b1">11</div>
+                <div class="left-rows-o" id="b1">13</div>
+                <div class="left-rows-o" id="b1">15</div>
+                </div>
+                
+             </div>
+             </div>
+            </div>
+
+        </div>   
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+
+let form = document.querySelector("form");
+  form.addEventListener("submit", myForm);
+
+  function myForm(event){
+    event.preventDefault();
+
+    alert("Booking Successful...!")
+    window.location.href = "index.html"
+  }
+  
+</script>

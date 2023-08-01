@@ -1,0 +1,139 @@
+.container-box{
+margin-top: 20px;
+padding: 10px;
+margin: auto;
+width: 45%;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+
+.box-1{
+    display: flex;
+}
+
+.box-2{
+    display: flex;
+}
+
+.inner-box-1{
+    width: 300px;
+    height: 620px;
+    border: 1px solid black;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.inner-box-2{
+    width: 300px;
+    height: 620px;
+    border: 1px solid black;
+}
+
+.left-rows{
+    border: 1px solid red;
+    width: 60px;
+    height: 100px;
+    margin: 8px;
+    text-align: center;
+}
+
+.right-row{
+    display: flex;
+}
+
+.main-box{
+    display: flex;
+    gap: 50px;
+}
+.heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.left-rows-b{
+
+    border: 1px solid black;
+    width: 60px;
+    height: 100px;
+    margin: 8px;
+    text-align: center;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.left-rows-o{
+
+    border: 2px solid green;
+    width: 60px;
+    height: 100px;
+    margin: 8px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.left-rows-w{
+
+    border: 2px solid palevioletred;
+    width: 60px;
+    height: 100px;
+    margin: 8px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+#b1:hover{
+    background-color: lightgreen;
+    
+}
+#s1{
+    border: 2px solid green;
+}
+#s2{
+    border: 2px solid palevioletred;
+}
+#s3{
+    border: 1px solid black;
+    background-color: lightgreen;
+}
+#s4{
+    border: 2px solid grey;
+    background-color: lightgray;
+}
+#s5{
+    border: 2px solid palevioletred;
+    background-color: lightgray;
+}
+.main-box-2{
+    display: flex;
+    gap: 20px;
+}
+
+.right-rows{
+    width: 250px;
+    height: 70px;
+    margin: 8px;
+    text-align: start;
+    margin-top: 12px;
+
+}
+.r1-rows{
+    border: 1px solid red;
+    width: 40px;
+    height: 70px;
+    margin: 8px;
+    text-align: center;
+}
+#btn-1{
+    margin-left: 380px;
+}
+#icon{
+    margin-top: 5px;
+    font-size: larger;
+}
+#cont{
+    width: 100%;
+    font-size: 20px;
+}
